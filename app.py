@@ -80,7 +80,15 @@ color:white;
     caret-color: white !important;
 }
 
+[data-testid="stChatInput"] {
+    background-color: #1F2937 !important;
+}
 
+[data-testid="stChatInput"] textarea,
+[data-testid="stChatInput"] input {
+    background: #1F2937 !important;
+    color: white !important;
+}
 
 
 /* Sidebar */
