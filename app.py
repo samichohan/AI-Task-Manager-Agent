@@ -105,7 +105,19 @@ section[data-testid="stSidebar"] * {
 .stChatInput {
     background-color: #1f2937 !important;
 }
-            
+
+/* Streamlit text input */
+input, textarea {
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+}
+
+[data-testid="stChatInput"] textarea {
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+    caret-color: white !important;
+}
+
 [data-testid="collapsedControl"]{
 
     color:white !important;
