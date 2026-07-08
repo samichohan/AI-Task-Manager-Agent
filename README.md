@@ -8,7 +8,7 @@ This project uses a ReAct Agent that can understand natural language, decide whi
 
 ## 🚀 Live Demo
 
-👉 **Live App:** https://YOUR-STREAMLIT-LINK.streamlit.app
+👉 **Live App:** https://ai-task-manager-agent-app.streamlit.app/
 
 ---
 
