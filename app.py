@@ -2,7 +2,7 @@ import streamlit as st
 import json
 import os
 
-from agent import agent_executor
+from agents import agent_executor
 
 # ---------------- PAGE CONFIG ---------------- #
 
