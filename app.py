@@ -54,7 +54,7 @@ st.markdown("""
 
 html,body,.stApp{
 
-background:transparent;
+background:#09090B;
 color:white;
 
 }
@@ -81,6 +81,14 @@ section[data-testid="stSidebar"]{
 background:#111827;
 border-right:1px solid #222;
 
+}
+
+section[data-testid="stSidebar"] *{
+    color:white !important;
+}
+
+section[data-testid="stSidebar"] button{
+    color:white !important;
 }
 
 /* Hide Streamlit */
@@ -118,17 +126,19 @@ font-size:18px;
 
 .card{
 
-background:transparent;
+background:#111827;
 
 padding:22px;
 
 border-radius:18px;
 
-border:1px solid #27272A;
+border:1px solid #333;
 
 margin-bottom:20px;
 
 box-shadow:0px 0px 20px rgba(0,0,0,.35);
+
+color:white;
 
 }
 
@@ -150,7 +160,7 @@ margin-bottom:18px;
 
 .metric h1{
 
-color:#94A3B8;
+color:white;
 
 margin:0;
 
@@ -166,37 +176,31 @@ color:#94A3B8;
 
 .user{
 
-background:transparent;
+background:#2563EB;
 
 padding:15px;
 
-border-radius:14px;
+border-radius:12px;
 
-margin-top:15px;
+margin:10px 0;
 
-margin-bottom:15px;
-
-color:#94A3B8;
-
-font-size:17px;
+color:white !important;
 
 }
 
 .bot{
 
-background:transparent;
+background:#1F2937;
 
 padding:15px;
 
-border-radius:14px;
+border-radius:12px;
 
-margin-bottom:15px;
+margin:10px 0;
+
+color:white !important;
 
 border:1px solid #333;
-
-color:#94A3B8;
-
-font-size:17px;
 
 }
 
@@ -204,7 +208,7 @@ font-size:17px;
 
 .task{
 
-background:transparent;
+background:#1F2937;
 
 padding:12px;
 
@@ -212,10 +216,29 @@ border-radius:10px;
 
 margin-bottom:10px;
 
-color:#94A3B8;
+color:white !important;
 
 font-size:16px;
 
+border:1px solid #333;
+
+}
+/* ================= CHAT INPUT ================= */
+
+[data-testid="stChatInput"] textarea{
+    color:#FFFFFF !important;
+    -webkit-text-fill-color:#FFFFFF !important;
+    caret-color:#FFFFFF !important;
+}
+
+[data-testid="stChatInput"] textarea::placeholder{
+    color:#9CA3AF !important;
+}
+
+[data-testid="stChatInput"]{
+    background:#111827 !important;
+    border:1px solid #333 !important;
+    border-radius:12px !important;
 }
 
 /* Scroll */
@@ -232,6 +255,10 @@ background:transparent;
 
 border-radius:20px;
 
+}
+
+h1,h2,h3,h4,h5,h6,p,span,div{
+    color:white !important;
 }
 
 </style>
