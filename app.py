@@ -71,7 +71,16 @@ color:white;
     opacity:1 !important;
 
 }
-            
+
+/* Chat Input Box Background */
+[data-testid="stChatInput"] textarea {
+    background-color: #1F2937 !important;
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+    caret-color: white !important;
+}
+
+
 
 
 /* Sidebar */
