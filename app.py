@@ -52,250 +52,49 @@ if "messages" not in st.session_state:
 st.markdown("""
 <style>
 
-html,body,.stApp{
-
-background:#09090B;
-color:white;
-
+/* Chat Input Container */
+[data-testid="stChatInput"]{
+    background:#111827 !important;
+    border:1px solid #374151 !important;
+    border-radius:12px !important;
 }
 
-html, body, .stApp {
-    background-color: #09090B;
-    color: white !important;
-}
-
-* {
-    color: white;
-}
-
-p, span, label, div, h1, h2, h3, h4, h5, h6 {
-    color: white !important;
-}
-
-
-.stChatInput textarea {
-    color: white !important;
-}
-
-.stChatInput input {
-    color: white !important;
-}
-
-
-section[data-testid="stSidebar"] * {
-    color: white !important;
-}
-
-.stButton button {
-    color: white !important;
-}
-
-/* Chat input text */
-.stChatInput textarea {
-    color: white !important;
-    -webkit-text-fill-color: white !important;
-}
-
-/* Placeholder text */
-.stChatInput textarea::placeholder {
-    color: #9ca3af !important;
-}
-
-/* Input box background */
-.stChatInput {
-    background-color: #1f2937 !important;
-}
-
-/* Streamlit text input */
-input, textarea {
-    color: white !important;
-    -webkit-text-fill-color: white !important;
-}
-
-[data-testid="stChatInput"] textarea {
-    color: white !important;
-    -webkit-text-fill-color: white !important;
-    caret-color: white !important;
-}
-
-[data-testid="collapsedControl"]{
-
-    color:white !important;
-    background:#2563EB !important;
-
-    border-radius:10px;
-
-    padding:8px;
-
+/* Input Text */
+[data-testid="stChatInput"] textarea{
+    color:#ffffff !important;
+    -webkit-text-fill-color:#ffffff !important;
+    caret-color:#ffffff !important;
     opacity:1 !important;
-
-}
-            
-
-
-/* Sidebar */
-
-section[data-testid="stSidebar"]{
-
-background:#111827;
-border-right:1px solid #222;
-
+    background:transparent !important;
 }
 
-/* Hide Streamlit */
-
-#MainMenu{
-background:transparent;
+/* Placeholder */
+[data-testid="stChatInput"] textarea::placeholder{
+    color:#9CA3AF !important;
 }
 
-footer{
-background:transparen;
+/* Streamlit Text Area */
+textarea{
+    color:#ffffff !important;
+    -webkit-text-fill-color:#ffffff !important;
 }
 
-header{
-background:transparent;
+/* Normal Input */
+input{
+    color:#ffffff !important;
+    -webkit-text-fill-color:#ffffff !important;
 }
 
-/* Title */
-
-.title{
-
-font-size:42px;
-font-weight:700;
-color:white;
-
-}
-
-.subtitle{
-
-color:#94A3B8;
-font-size:18px;
-
-}
-
-/* Cards */
-
-.card{
-
-background:transparent;
-
-padding:22px;
-
-border-radius:18px;
-
-border:1px solid #27272A;
-
-margin-bottom:20px;
-
-box-shadow:0px 0px 20px rgba(0,0,0,.35);
-
-}
-
-/* Metrics */
-
-.metric{
-
-background:transparent;
-
-padding:18px;
-
-border-radius:14px;
-
-text-align:center;
-
-margin-bottom:18px;
-
-}
-
-.metric h1{
-
-color:white;
-
-margin:0;
-
-}
-
-.metric p{
-
-color:#94A3B8;
-
-}
-
-/* Chat */
-
-.user{
-
-background:transparent;
-
-padding:15px;
-
-border-radius:14px;
-
-margin-top:15px;
-
-margin-bottom:15px;
-
-color:white;
-
-font-size:17px;
-
-}
-
-.bot{
-
-background:transparent;
-
-padding:15px;
-
-border-radius:14px;
-
-margin-bottom:15px;
-
-border:1px solid #333;
-
-color:white;
-
-font-size:17px;
-
-}
-
-/* Task */
-
-.task{
-
-background:transparent;
-
-padding:12px;
-
-border-radius:10px;
-
-margin-bottom:10px;
-
-color:white;
-
-font-size:16px;
-
-}
-
-/* Scroll */
-
-::-webkit-scrollbar{
-
-width:8px;
-
-}
-
-::-webkit-scrollbar-thumb{
-
-background:transparent;
-
-border-radius:20px;
-
+/* Markdown Text */
+.stMarkdown,
+.stMarkdown p,
+.stMarkdown div,
+.stMarkdown span{
+    color:#ffffff !important;
 }
 
 </style>
 """, unsafe_allow_html=True)
-
 
 # ---------------- HEADER ---------------- #
 
