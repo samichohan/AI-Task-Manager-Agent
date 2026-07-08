@@ -89,6 +89,22 @@ section[data-testid="stSidebar"] * {
 .stButton button {
     color: white !important;
 }
+
+/* Chat input text */
+.stChatInput textarea {
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+}
+
+/* Placeholder text */
+.stChatInput textarea::placeholder {
+    color: #9ca3af !important;
+}
+
+/* Input box background */
+.stChatInput {
+    background-color: #1f2937 !important;
+}
             
 [data-testid="collapsedControl"]{
 
