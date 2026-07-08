@@ -58,6 +58,37 @@ background:#09090B;
 color:white;
 
 }
+
+html, body, .stApp {
+    background-color: #09090B;
+    color: white !important;
+}
+
+* {
+    color: white;
+}
+
+p, span, label, div, h1, h2, h3, h4, h5, h6 {
+    color: white !important;
+}
+
+
+.stChatInput textarea {
+    color: white !important;
+}
+
+.stChatInput input {
+    color: white !important;
+}
+
+
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+.stButton button {
+    color: white !important;
+}
             
 [data-testid="collapsedControl"]{
 
