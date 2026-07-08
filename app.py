@@ -54,7 +54,7 @@ st.markdown("""
 
 html,body,.stApp{
 
-background:#09090B;
+background:transparent;
 color:white;
 
 }
@@ -150,7 +150,7 @@ margin-bottom:18px;
 
 .metric h1{
 
-color:white;
+color:#94A3B8;
 
 margin:0;
 
@@ -176,7 +176,7 @@ margin-top:15px;
 
 margin-bottom:15px;
 
-color:white;
+color:#94A3B8;
 
 font-size:17px;
 
@@ -194,7 +194,7 @@ margin-bottom:15px;
 
 border:1px solid #333;
 
-color:white;
+color:#94A3B8;
 
 font-size:17px;
 
@@ -212,7 +212,7 @@ border-radius:10px;
 
 margin-bottom:10px;
 
-color:white;
+color:#94A3B8;
 
 font-size:16px;
 
