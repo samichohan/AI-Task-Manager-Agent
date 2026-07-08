@@ -176,7 +176,7 @@ margin-top:15px;
 
 margin-bottom:15px;
 
-color:white;
+color:transparent;
 
 font-size:17px;
 
@@ -194,7 +194,7 @@ margin-bottom:15px;
 
 border:1px solid #333;
 
-color:white;
+color:transparent;
 
 font-size:17px;
 
