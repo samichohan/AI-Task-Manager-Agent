@@ -176,7 +176,7 @@ margin-top:15px;
 
 margin-bottom:15px;
 
-color:transparent;
+color:white;
 
 font-size:17px;
 
@@ -194,7 +194,7 @@ margin-bottom:15px;
 
 border:1px solid #333;
 
-color:transparent;
+color:white;
 
 font-size:17px;
 
@@ -510,7 +510,7 @@ st.markdown(
 
 AI Powered Task Manager
 
-Built with ❤️ using
+Built with  using
 
 **LangChain • Groq • ReAct Agent • Streamlit**
 
